@@ -1,0 +1,122 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Event App - Home</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">EventX</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="event.html">Event</a></li>
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="hero container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1 class="fw-bold display-5">Join Our Special Event</h1>
+            <p class="text-muted">Register now and be a part of our biggest event of the year. Get all the exciting updates, schedules, and more.</p>
+            <a href="event.html" class="btn btn-primary btn-lg">Explore Event</a>
+        </div>
+
+        <div class="col-md-6 text-end">
+            <img src="hevent1.jpeg" alt="Event Image" class="img-fluid rounded shadow" style="width: 100%; height: auto; object-fit: cover;">
+        </div>
+    </div>
+</section>
+
+
+<section class="container mt-5 text-center">
+    <h2 class="fw-bold mb-4">Why Join Us?</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="p-4 shadow rounded">
+                <img src="networking.jpg" class="card-img-top">
+                <h5 class="fw-bold mt-3">Networking</h5>
+                <p>Meet talented people and grow your connections.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-4 shadow rounded">
+                <img src="learning.jpg" class="card-img-top">
+                <h5 class="fw-bold mt-3">Learning</h5>
+                <p>Attend workshops and improve your skills.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="p-4 shadow rounded">
+                <img src="funactivity.jpg" class="card-img-top">
+                <h5 class="fw-bold mt-3">Fun & Activities</h5>
+                <p>Enjoy games, shows, competitions and more.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="modal fade" id="loginModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">Login</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <form>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email ID</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" required>
+                    </div>
+
+                    <button class="btn btn-primary w-100">Login</button>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
